@@ -18,31 +18,34 @@ kramdown:
 
 # Plug-ins
 plugins:
-    - jekyll-email-protect
     - jekyll-paginate
     - jekyll/scholar
     - jemoji
+    - jekyll-redirect-from
+
+whitelist:
+  - jekyll-redirect-from
 
 # Jekyll-Scholar
-scholar:
+# scholar:
 
-  last_name: Tyo
+#   last_name: Tyo
 
-  style: apa
-  locale: en
+#   style: apa
+#   locale: en
 
-  sort_by: year
-  order: descending
+#   sort_by: year
+#   order: descending
 
-  source: /_bibliography/
-  bibliography: papers.bib
-  bibliography_template: bib
+#   source: /_bibliography/
+#   bibliography: papers.bib
+#   bibliography_template: bib
 
-  replace_strings: true
-  join_strings: true
+#   replace_strings: true
+#   join_strings: true
 
-  details_dir: bibliography
-  details_layout: bibtex.html
-  details_link: Details
+#   details_dir: bibliography
+#   details_layout: bibtex.html
+#   details_link: Details
 
-  query: "@*"
+#   query: "@*"
