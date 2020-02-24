@@ -1,41 +1,54 @@
 <!-- Header -->
-  <nav id="navbar" class="navbar fixed-top navbar-expand-md grey lighten-5 z-depth-1 navbar-light">
+<nav id="navbar" class="navbar fixed-top navbar-expand-md grey lighten-5 z-depth-1 navbar-light">
     <div class="container-fluid p-0">
-      
-        <a class="navbar-brand title font-weight-lighter" href="/"><span class="font-weight-bold">Jacob</span> Tyo</a>
+
+{% if page.title == "about" %}
+
+      <div class="row ml-1 ml-sm-0">
+        <span class="contact-icon text-center" style="line-height: 1em;">
+          <a href="mailto:jacob.tyo@gmail.com"><i class="fa fa-envelope-square gm-icon"></i></a>
+          <a href="https://scholar.google.com/citations?user=xBJ-7n4AAAAJ&hl=en&oi=ao" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar-square gs-icon"></i></a>
+          <a href="https://github.com/JacobTyo" target="_blank" title="GitHub"><i class="fab fa-github-square gh-icon"></i></a>
+          <a href="https://www.linkedin.com/in/jacobtyo" target="_blank" title="LinkedIn"><i class="fab fa-linkedin li-icon"></i></a>
+          <a href="https://www.facebook.com/jacob.tyo.1" target="_blank" title="Facebook"><i class="fab fa-facebook-square fb-icon"></i></a>
+          <a href="https://twitter.com/jaketyo" target="_blank" title="Twitter"><i class="fab fa-twitter-square tw-icon"></i></a>
+        </span>
+      </div>
+          
+      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+{% else %}
+        <a class="navbar-brand title font-weight-lighter" href="/about"><span class="font-weight-bold">Jacob</span> Tyo</a>
       
       <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+{% endif %}
+
       <div class="collapse navbar-collapse text-right" id="navbarNav">
+
         <ul class="navbar-nav ml-auto flex-nowrap">
-          <li class="nav-item ">
-            <a class="nav-link" href="/">
-              about
-            </a>
-          </li>
-              <li class="nav-item navbar-active font-weight-bold">
-                  <a class="nav-link" href="/cv/">
-                    cv
-                    <span class="sr-only">(current)</span>
-                  </a>
+          {% for pages in site.pages %} {% if pages.title %}
+            {% if pages.categories == "core_page" %}
+              {% if pages.title == page.title %}
+              <li class="nav-item navbar-active font-weight-bold"><a class="nav-link" href="{{ pages.url | prepend: site.baseurl }}">
+                  {{ pages.title }}
+                  <span class="sr-only">(current)</span>
+                </a>
               </li>
-              <li class="nav-item ">
-                  <a class="nav-link" href="/projects/">
-                    projects
-                  </a>
+              {% else %}
+              <li class="nav-item "><a class="nav-link" href="{{ pages.url | prepend: site.baseurl }}">
+                  {{ pages.title }} <br/>
+                </a>
               </li>
-              <li class="nav-item ">
-                  <a class="nav-link" href="/publications/">
-                    publications
-                  </a>
-              </li>
-              <li class="nav-item ">
-                  <a class="nav-link" href="/teaching/">
-                    teaching
-                  </a>
-              </li>
+              {% endif %}
+            {% endif %}
+          {% endif %} {% endfor %}
+          <!-- <li><a href="{{ "/blog" | prepend: site.baseurl }}">Blog</a></li> -->
         </ul>
       </div>
+
+
     </div>
   </nav>
