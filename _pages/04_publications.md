@@ -11,8 +11,3 @@ years: [2019, 2018 ,2017, 2016]
 
 This page is a work in progress.  For publication information, visit my [Google Scholar](https://scholar.google.com/citations?user=xBJ-7n4AAAAJ&hl=en&oi=ao).
 
-<!-- {% for y in page.years %}
-  <h3 class="year">{{y}}</h3>
-  {% bibliography -f papers -q @*[year={{y}}]* %}
-{% endfor %}
- -->
