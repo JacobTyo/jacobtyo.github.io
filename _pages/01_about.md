@@ -5,6 +5,8 @@ permalink: /about/
 categories: core_page
 ---
 
+<h6>This site is a work in progress.</h6>
+
 <div class="text-center mt-5">
   <img class="profile-img" src="/assets/img/prof_pic.jpg" />
 </div>

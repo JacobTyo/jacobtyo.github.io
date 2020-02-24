@@ -107,11 +107,15 @@
             
             
             
-              
             
             
             
-             
+            
+            
+            
+            
+            
+               
           <!-- <li><a href="/blog">Blog</a></li> -->
         </ul>
       </div>
@@ -131,7 +135,7 @@
 <div class="col text-justify p-0">
   <h1>Delayed Bandits</h1>
 
-<p><a href="/home/jtyo/Repos/jacobtyo.github.io/_pages/cyber_toolkit.md">This repository</a> holds work that was done as part of a class project, exploring bandits and a formulation where the rewards are stochastically delayed.  A writeup of the work can be found <a href="/assets/pdf/bandits/mab.pdf">here</a>.</p>
+<p><a href="https://github.com/JacobTyo/DelayedAggregatedBandits">This repository</a> holds work that was done as part of a class project, exploring bandits and a formulation where the rewards are stochastically delayed.  A writeup of the work can be found <a href="/assets/pdf/bandits/mab.pdf">here</a>.</p>
 
 </div>
 </div>
@@ -142,7 +146,10 @@
   &copy; Copyright 2020 Jacob Tyo.
 </footer>
 
-
+<!-- Code Syntax Highlighting -->
+<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+<script src="/assets/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
 
 <!-- Core JavaScript Files -->
 <script src="/assets/js/jquery.min.js" type="text/javascript"></script>
@@ -159,6 +166,20 @@
 $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 })
+</script>
+
+<!-- Project Cards Layout -->
+<script type="text/javascript">
+  var $grid = $('#projects');
+
+  // $grid.masonry({ percentPosition: true });
+  // $grid.masonry('layout');
+
+  // Trigger after images load.
+  $grid.imagesLoaded().progress(function() {
+    $grid.masonry({ percentPosition: true });
+    $grid.masonry('layout');
+  });
 </script>
 
 <!-- Google Analytics -->

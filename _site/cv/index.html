@@ -108,11 +108,15 @@
             
             
             
-              
             
             
             
-             
+            
+            
+            
+            
+            
+               
           <!-- <li><a href="/blog">Blog</a></li> -->
         </ul>
       </div>
@@ -517,23 +521,10 @@
   &copy; Copyright 2020 Jacob Tyo.
 </footer>
 
-
-
-<!-- Project Cards Layout -->
-  <script type="text/javascript">
-    var $grid = $('#projects');
-
-    // $grid.masonry({ percentPosition: true });
-    // $grid.masonry('layout');
-
-    // Trigger after images load.
-    $grid.imagesLoaded().progress(function() {
-      $grid.masonry({ percentPosition: true });
-      $grid.masonry('layout');
-    });
-  </script>
-
-
+<!-- Code Syntax Highlighting -->
+<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+<script src="/assets/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
 
 <!-- Core JavaScript Files -->
 <script src="/assets/js/jquery.min.js" type="text/javascript"></script>
@@ -550,6 +541,20 @@
 $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 })
+</script>
+
+<!-- Project Cards Layout -->
+<script type="text/javascript">
+  var $grid = $('#projects');
+
+  // $grid.masonry({ percentPosition: true });
+  // $grid.masonry('layout');
+
+  // Trigger after images load.
+  $grid.imagesLoaded().progress(function() {
+    $grid.masonry({ percentPosition: true });
+    $grid.masonry('layout');
+  });
 </script>
 
 <!-- Google Analytics -->
