@@ -22,7 +22,7 @@ categories: core_page
         </span>
       </div>
     </div>
-    <h6 class="font-italic mt-2 mt-sm-0">Spring 2016: Teaching Assistant</h6>
+    <h6 class="font-italic mt-2 mt-sm-0">Fall 2019: Teaching Assistant</h6>
     <ul class="card-text font-weight-light list-group list-group-flush">
       <li class="list-group-item">Graduate-level introduction to data analysis course taught by <a href="https://www.cs.cmu.edu/~lwehbe/">Leila Wehbe</a>.</li>
       <li class="list-group-item">— Outcome of the class was a blog series (not yet public) on the data analysis lifecycle, as well as reproducibility, interpretability, fairness, bias, transparency, and accountability.</li>
