@@ -19,7 +19,7 @@ Alright fam, we've talked too long about learning more of sign language than jus
 This lesson plan includes three components:
 1. Weekly Lecture Videos
 2. Weekly Quizes
-3. A monthly group call to put our new skills into practice. 
+3. A monthly group video call
 
 ## Your Duties
 
