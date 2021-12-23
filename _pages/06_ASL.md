@@ -30,7 +30,29 @@ Each week, watch the lecture video and complete the corresponding quiz - this sh
 You can follow [this link](https://calendar.google.com/calendar/u/0?cid=bW1rZm0yNGt0MGpsNjBidHU1ajhoaWM1ODRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) to get access to a Google Calendar with this same schedule on it, which will also send you alerts. Alternativly, you can email jacob.tyo@gmail.com with the subject "Add me to ASL Calendar" and I can add you manually. I'm looking forward to this adventure, and good luck!
 
 
-## Schedule 
+## Video Chat Schedule
+
+All chats will take place at 7:30pm EST.
+
+| Chat Number |        Date        |
+|:-----------:|:------------------:|
+|      1      |  January 26, 2022  |
+|      2      |  February 23, 2022 |
+|      3      |   March 30, 2022   |
+|      4      |   April 27, 2022   |
+|      5      |    May 25, 2022    |
+|      6      |    June 29, 2022   |
+|      7      |    July 27, 2022   |
+|      8      |   August 31, 2022  |
+|      9      | September 28, 2022 |
+|      10     |  October 26, 2022  |
+|      11     |  November 30, 2022 |
+|      12     |  December 28, 2022 |
+
+
+
+
+## Lecture Schedule 
 
 | Week Number | Begin Date         | Finish Date        | Lecture Link                                                        | Quiz Link                                                        |
 |:-------------:|:--------------------:|:--------------------:|:---------------------------------------------------------------------:|:------------------------------------------------------------------:|
