@@ -23,7 +23,7 @@ This lesson plan includes three components:
 
 ## Your Duties
 
-Each week, watch the lecture video and complete the corresponding quiz - this should take roughly one hour. At the end of each month we will all get together in a video call and practice our newly learned skills by talking ENTIRELY in sign language - thats right, NO talking! 
+Each week, watch the lecture video, complete the corresponding quiz, then text Jake your quiz score - this should take roughly one hour. At the end of each month we will all get together in a video call and practice our newly learned skills by talking ENTIRELY in sign language - thats right, NO talking! 
 
 ## Google Calendar
 
