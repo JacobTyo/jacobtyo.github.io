@@ -140,7 +140,7 @@ GEM
     multipart-post (2.1.1)
     namae (1.1.1)
     net-dns (0.9.0)
-    nokogiri (1.12.5-x86_64-linux)
+    nokogiri (1.13.9-x86_64-linux)
       racc (~> 1.4)
     octokit (4.21.0)
       faraday (>= 0.9)
@@ -182,7 +182,7 @@ GEM
     yajl-ruby (1.2.3)
 
 PLATFORMS
-  ruby
+  x86_64-linux
 
 DEPENDENCIES
   bibtex-ruby (>= 5.1.0)
