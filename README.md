@@ -1,6 +1,6 @@
 # Work in progress
 
-This site is currently a work in progress.  Using [Anthony Platanios](https://github.com/eaplatanios/eaplatanios.github.io) and [Maruan Al-Shedivat](https://github.com/alshedivat/al-folio) as a starting point, I am adding more Jekyll functionality and modularity.  
+This site is currently a work in progress.  Using [Anthony Platanios](https://github.com/eaplatanios/eaplatanios.github.io) and [Maruan Al-Shedivat](https://github.com/alshedivat/al-folio) as a starting point.  
 
 # al-folio
 A simple and clean [Jekyll](https://jekyllrb.com/) theme for academics.
