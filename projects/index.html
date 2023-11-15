@@ -19,11 +19,15 @@
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-K2CZ73DF1F"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'G-K2CZ73DF1F');
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-K2CZ73DF1F');
 </script>
 
 <!-- Copied from toutorial mentioned in readme -->
@@ -76,10 +80,10 @@
                 </li>
 
 
-<!--                <li class="nav-item "><a class="nav-link" href="/cv/">-->
-<!--                    cv <br/>-->
-<!--                </a>-->
-<!--                </li>-->
+                <li class="nav-item "><a class="nav-link" href="/assets/pdf/vitae.pdf" target="_blank">
+                    cv <br/>
+                </a>
+                </li>
 
 
                 <li class="nav-item navbar-active font-weight-bold"><a class="nav-link" href="/projects/">
@@ -132,12 +136,14 @@
                 <div id="projects" class="row mt-2 pt-3" style="overflow: visible !important;">
 
 
-                  <div class="project-card">
+                    <div class="project-card">
                         <a href="/projects/PerPh/">
                             <div class="card">
-                                <img class="card-img-top" src="/assets/img/PerPh/PerPh-Logo.png" alt="project thumbnail"/>
+                                <img class="card-img-top" src="/assets/img/PerPh/PerPh-Logo.png"
+                                     alt="project thumbnail"/>
                                 <div class="card-body">
-                                    <h5 class="card-title text-lowercase">Performance Photo: AI for Event Photography</h5>
+                                    <h5 class="card-title text-lowercase">Performance Photo: AI for Event
+                                        Photography</h5>
                                     <p class="card-text">Photography marketplace driven by powerful AI.</p>
                                     <div class="row ml-1 mr-1 p-0">
 
